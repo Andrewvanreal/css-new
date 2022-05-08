@@ -1,19 +1,26 @@
 
-#home{
-    border: 1px solid black;
-    margin: 20px;
-    padding: 30px;
+.header-nav{
+    background-color: var(--background-color);
+    padding: 5px;
 }
-.header-banner__h1 {
+.header-nav__logo{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+.header-banner__h1{
     font-size: 56px;
 }
-.header-nav__menu a {
+.header-nav__menu-item {
     text-decoration: none;
-    color: blanchedalmond;
+    display: block;
+    color: var(--main-text-color);
+
 }
-.header-nav__menu a:hover{
+.header-nav__menu-item:hover{
     text-decoration: underline;
 }
-a{
-    color: green;
+img{
+    display:block;
+    width: 100%;
 }
