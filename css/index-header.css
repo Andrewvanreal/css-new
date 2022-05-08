@@ -1,0 +1,19 @@
+
+#home{
+    border: 1px solid black;
+    margin: 20px;
+    padding: 30px;
+}
+.header-banner__h1 {
+    font-size: 56px;
+}
+.header-nav__menu a {
+    text-decoration: none;
+    color: blanchedalmond;
+}
+.header-nav__menu a:hover{
+    text-decoration: underline;
+}
+a{
+    color: green;
+}
